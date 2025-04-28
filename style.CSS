@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background: #f0f0f0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#display {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#start { background: green; color: white; }
+#pause { background: orange; color: white; }
+#reset { background: red; color: white; }
